@@ -1,0 +1,57 @@
+.box1 {
+    background-color: #05336B;
+    display: grid;
+    grid-template-areas: 
+    "weatherchannel IBM search globe US triangle1 button1 hamburgerMenu ";
+}
+
+.weatherchannel {
+    grid-area: weatherchannel;
+    background-color: #FFFFFF;
+    color: #05336B;;
+}
+
+.IBM {
+    grid-area: IBM;
+    color: #B6C1D2
+}
+
+.search {
+    grid-area: search;
+    color: #B6C1D2;
+    background-color: #3C5C88;
+    fill: #D3D3D3;
+    border-radius: 20px;
+}
+
+.globe {
+    grid-area: globe;
+    filter: grayscale(100%);
+    cursor: pointer;
+    fill: #D3D3D3;
+}
+
+.triangle {
+    grid-area: triangle1;
+    color: #B6C1D2;
+    cursor: pointer;
+    fill: #D3D3D3;
+
+}
+
+.button {
+    grid-area: button1;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+
+.hamburgerMenu {
+    grid-area: hamburgerMenu;
+    cursor: pointer;
+}
+
+.US {
+    grid-area: US;
+    cursor: pointer;
+}

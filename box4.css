@@ -1,0 +1,318 @@
+.box4main {
+    
+    background-color: #064186;
+    display: grid;
+   
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(1fr);
+    grid-template-areas:
+    "topstories topstories ad5"
+    "latesnews latesnews covid"
+    "weather weather ad6"
+    "ad1 ad1 intro"
+    "recommend recommend sling"
+    "ad2 ad3 deal"
+    "photos photos ."
+    "scontent scontent ."
+    "ad4 ad4 ad4";
+    grid-gap: 15px;
+   
+    padding-top: 300px;
+    
+}
+
+.topstories {
+    grid-area: topstories;
+    border: solid white;
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: subgrid;
+    grid-template-rows: 180px 180px;
+    grid-template-areas: 
+    "tops ."
+    "volcano lunar"
+    "volcano china"
+    "volcano arch"
+    "buttonms .";  
+    height:fit-content;
+    width:fit-content;
+    align-items: stretch;    
+}
+
+.topstories .tops {
+    grid-area: tops;
+}
+
+.topstories .arch {
+    grid-area: arch;
+    border-radius: 10px;
+    
+}
+
+.topstories .lunar {
+    grid-area: lunar;
+    border-radius: 10px; 
+    
+}
+
+.topstories .volcano {
+    grid-area: volcano;
+    border-radius: 10px;
+}
+
+.topstories .china {
+    grid-area: china;
+    border-radius: 10px;
+}
+
+.topstories .button1 {
+    grid-area: buttonms;
+    border-radius: 20px;
+    background-color:  #1B4DE3;
+    color: #ffffff;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+    transition: width 3s;
+     
+}
+.topstories .button1:hover {
+    width: 250px;
+}
+.tophead {
+    grid-area: top;
+}
+
+.latesnews {
+    grid-area: latesnews;
+    
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    grid-template-areas: 
+    "laten . . ."
+    "total lunar2 sever lunar3"
+    "latebn latebn . .";
+    
+    height:fit-content;
+    width:fit-content;
+    grid-gap: 10px;
+}
+
+.latesnews .laten {
+    grid-area: laten;
+}
+
+.latesnews .total {
+    grid-area: total;
+}
+
+.latesnews .lunar2 {
+    grid-area: lunar2;
+}
+
+.latesnews .sever {
+    grid-area: sever;
+}
+
+.latesnews .lunar3 {
+    grid-area: lunar3;
+}
+
+.latesnews .latebn {
+    grid-area: latenb;
+    border-radius: 20px;
+    background-color: #1B4DE3;
+    color: #ffffff;
+    transition:width 4s;
+    cursor: pointer;
+}
+
+.latesnews .latebn:hover {
+    width: 250px;
+}
+
+.weather {
+    grid-area: weather;
+    border: solid white;
+    background-color: white;
+    border-radius: 10px;
+    height:fit-content;
+    width:fit-content;
+    
+}
+.weatherbn {
+    border-radius: 20px;
+    background-color: #1B4DE3;
+    color: #ffffff;
+    margin-top: 40px;
+    transition:height 4s;
+    cursor: pointer;
+}
+
+.weatherbn:hover {
+    height: 250px;
+}
+
+.ad1 {
+    grid-area: ad1;
+    border: solid white;
+    background-color: white;
+    border-radius: 10px;
+    height:fit-content;
+    width:fit-content;
+}
+
+.recommend {
+    grid-area: recommend;
+    border: solid white;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.ad2 {
+    grid-area: ad2;
+    border: solid white;
+    background-color: white;
+    border-radius: 10px;
+    height:fit-content;
+    width:fit-content;
+}
+
+.ad3 {
+    grid-area: ad3;
+    border: solid white;
+    background-color: white;
+    border-radius: 10px;
+    height:fit-content;
+    width:fit-content;
+}
+
+.photos {
+    grid-area: photos;
+    border: solid white;
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: subgrid;
+  
+    grid-template-areas: 
+    ". photot . . ." 
+    ". getty1 getty2 getty3 getty4";
+   
+    height:fit-content;
+    width:fit-content;
+    grid-gap: 10px;
+}
+
+.photos .photobn {
+    grid: area;
+    border-radius: 20px;
+    background-color:  #1B4DE3;
+    color: #ffffff;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+    transition: width 3s;
+}
+
+.photos .photobn:hover {
+    width: 250px;
+
+}
+
+.photos .photot {
+    grid-area: photot;
+}
+
+.photos .getty1 {
+    grid-area: getty1;
+}
+
+.photos .getty2 {
+    grid-area: getty2;
+}
+
+.photos .getty3 {
+    grid-area: getty3;
+}
+
+.photos .getty4 {
+    grid-area: getty4;
+}
+
+
+
+.scontent {
+    grid-area: scontent;
+    border: solid white;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.ad4 {
+    grid-area: ad4;
+    border: solid white;
+    background-color: white;
+    border-radius: 10px;
+    height:fit-content;
+    width:fit-content;
+}
+
+.ad5 {
+    grid-area: ad5;
+    border: solid white;
+    background-color: white;
+    border-radius: 10px;
+    height:fit-content;
+    width:fit-content;
+}
+
+.covid {
+    grid-area: covid;
+    border: solid white;
+    background-color: white;
+    border-radius: 10px;
+    height:fit-content;
+    width:fit-content;
+}
+
+.ad6 {
+    grid-area: ad6;
+    border: solid white;
+    background-color: white;
+    border-radius: 10px;
+    height:fit-content;
+    width:fit-content;
+}
+
+.intro {
+    grid-area: intro;
+    border: solid white;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.sling {
+    grid-area: sling;
+    border: solid white;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.deal {
+    grid-area: deal;
+    border: solid white;
+    background-color: white;
+    border-radius: 10px;
+    height:fit-content;
+    width:fit-content;
+}
+
+
+          
+            

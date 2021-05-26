@@ -1,0 +1,148 @@
+.box3 {
+    height: 50px;
+    width: 100%;
+    border: solid #061F40;
+    background-color: #061F40;
+    color: #FFFFFF;
+    display: grid;
+    grid-template-areas:
+    "today hourly tenday weekend monthly radar video more";
+    
+    
+}
+
+.today:link {
+    grid-area: today;
+   
+   text-decoration: none;
+}
+.today:visited {
+    text-decoration: none;
+}
+
+.today:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.today:active {
+    text-decoration:underline;
+}
+
+.hourly:link {
+    grid-area: hourly;
+   
+   text-decoration: none;
+}
+.hourly:visited {
+    text-decoration: none;
+}
+
+.hourly:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.hourly:active {
+    text-decoration:underline;
+}
+
+.tenday:link {
+    grid-area: tenday;
+   
+   text-decoration: none;
+}
+.tenday:visited {
+    text-decoration: none;
+}
+
+.tenday:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.tenday:active {
+    text-decoration:underline;
+}
+
+.weekend:link {
+    grid-area: weekend;
+   
+   text-decoration: none;
+}
+.weekend:visited {
+    text-decoration: none;
+}
+
+.weekend:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.weekend:active {
+    text-decoration:underline;
+}
+
+.monthly:link {
+    grid-area: monthly;
+   
+   text-decoration: none;
+}
+.monthly:visited {
+    text-decoration: none;
+}
+
+.monthly:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.monthly:active {
+    text-decoration:underline;
+}
+
+.radar:link {
+    grid-area: radar;
+   
+   text-decoration: none;
+}
+.radar:visited {
+    text-decoration: none;
+}
+
+.radar:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.radar:active {
+    text-decoration:underline;
+}
+
+.video:link {
+    grid-area: video;
+   
+   text-decoration: none;
+}
+.video:visited {
+    text-decoration: none;
+}
+
+.video:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.video:active {
+    text-decoration:underline;
+}
+
+.more:link {
+    grid-area: more;
+   
+   text-decoration: none;
+}
+.more:visited {
+    text-decoration: none;
+}
+
+.more:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.more:active {
+    text-decoration:underline;
+}
